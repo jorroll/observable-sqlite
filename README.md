@@ -1,5 +1,7 @@
 # Observable SQLite
 
+### [See demo](https://stackblitz.com/~/github.com/jorroll/observable-sqlite)
+
 This repo is a minimal example of how to subscribe to SQL queries in a SQLite database. This example uses typescript and the official WASM distribution of SQLite.
 
 The basic strategy is that we provide a thin wrapper around SQLite for performing queries. This wrapper primarily does three things.
